@@ -1,0 +1,134 @@
+*{
+    font-size: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+    background: url(/Practice/Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #4287f5;
+    padding: 5px 20px;
+    border: 1px solid#12cce0;
+    border-radius: 5px;
+}
+
+ul li a:hover{
+    background-color:#17a5d4;
+    color: #fff;
+}
+
+.logo img{
+float: left;
+width: 150px;
+height: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ .row{
+     display: inline-block;
+ } 
+
+ .col2{
+     float: left;
+     padding: 5px;
+     width: 50%;
+ }
+
+ .row2{
+     display: inline-block;
+ }
+ 
+ text{
+     width: auto;
+ }
+
+ table{
+     border: 2px solid #e3f1fc;
+     padding: 10px;
+     width: 400px;
+ }
+ table.center{
+    
+  margin-left: auto; 
+  margin-right: auto;
+  }
+
+  table thead {
+      color : rgb(0, 57, 180);
+      padding: 10px;
+      
+  }
+.form{
+    border-radius: 5px;
+    
+    /* padding: 20px; */
+}
+
+form{
+    margin: 0 auto;
+    max-width: 220px;
+    width: 50vw;
+}
+footer{
+    bottom : 2;  
+    height : 40px;  
+    margin-top : 40px;  
+    text-align: center;  
+    vertical-align: middle;
+   
+}
+
+footer p{
+    color: #000;
+}
+ 
+input{
+    border-radius: 8px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,168,162,1) 0%, rgba(220,255,35,1) 0%, rgba(72,198,246,0.8883928571428571) 95%, rgba(6,189,250,1) 98%, rgba(0,212,255,1) 100%);
+    color: rgb(2, 141, 255);
+    padding: 12px 18px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }

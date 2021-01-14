@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/Practice/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Document_files/logo.png" id="logo" width="100px">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="http://127.0.0.1:5500/Practice/index.html#" target="_blank">Home</a> </li>
+                    <li><a href="http://127.0.0.1:5500/Practice/index.html#" target="_blank">Service</a> </li>
+                    <li><a href="http://127.0.0.1:5500/Practice/index.html#" target="_blank">About Us</a> </li>
+                    <li><a href="http://127.0.0.1:5500/Practice/index.html#" target="_blank">Contact Us</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+        </main>
+        
+       <section>
+            <aside class="leftImg">
+            <figure>
+                <img src="./Document_files/laura-chouette-N4zFyK2qyt8-unsplash.jpg" width="200px">
+            </figure>
+        </aside>
+        <article class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi numquam atque in fugiat molestiae tenetur debitis nobis, veniam alias expedita culpa itaque labore officiis facilis beatae placeat recusandae consequuntur enim, eveniet libero voluptatum. Beatae nemo, consectetur, quae reiciendis ipsam non vitae laborum maiores, rerum culpa sunt rem! Saepe, dignissimos facere?</p>
+        </article>
+
+        <aside class="rightImg">
+            <figure>
+                <img src="./Document_files/laura-chouette-N4zFyK2qyt8-unsplash.jpg" width="200px">
+            </figure>
+        </aside>
+
+       </section>
+
+
+
+
+        
+        
+
+
+
+    </div>
+
+    <script src="./Document_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
